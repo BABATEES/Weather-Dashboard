@@ -30,3 +30,8 @@ function displayWeather(event) {
     }
 }
 
+function currentWeather(city) {
+    // This create the URL for the API from openweather
+    var queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&APPID=" + APIKey;
+
+}
